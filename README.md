@@ -1,8 +1,9 @@
-#  Cadastro de Itens — Windows Forms + MySQL
+[README-senac-1-cadastro.md](https://github.com/user-attachments/files/29230126/README-senac-1-cadastro.md)
+# 📋 Cadastro de Itens — Windows Forms + MySQL
 
 Sistema de cadastro de itens desenvolvido em C# com Windows Forms e integração com banco de dados MySQL, criado durante o curso de Programador de Sistemas no SENAC em 2022.
 
-##  Funcionalidades
+## ✨ Funcionalidades
 
 - **Cadastrar** novos registros (nome e telefone)
 - **Consultar** registro por ID
@@ -15,14 +16,14 @@ Sistema de cadastro de itens desenvolvido em C# com Windows Forms e integração
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-##  Pré-requisitos
+## ⚙️ Pré-requisitos
 
 - Visual Studio
 - MySQL Server rodando localmente
 - Banco de dados `FormularioCad` com tabela `FormularioCad (ID, nome, telefone)`
 - Pacote NuGet: `MySql.Data`
 
-##  Como executar
+## 🚀 Como executar
 
 1. Clone o repositório
 2. Crie o banco de dados MySQL:
@@ -37,7 +38,7 @@ CREATE TABLE FormularioCad (
 ```
 3. Abra `cadastro.sln` no Visual Studio e execute.
 
-##  Estrutura
+## 📁 Estrutura
 
 ```
 ├── Program.cs
